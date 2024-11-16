@@ -1,0 +1,52 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 320px;
+    height: 74px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;           
+    /* padding: 20px;         */
+    background-color: white;      
+    flex-direction: row;
+    width: 335px;
+    height: 34px;
+}
+
+  /* Стили для логотипа */
+.logo {
+    font-weight: 500;
+font-size: 16px;
+letter-spacing: -0.02em;
+color: #0c0c0c;
+
+}
+
+
+.nav-list,
+.header-soc-list {
+    display: none;
+}
+
+.burger-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+}
+
+.burger-icon {
+    display: block;
+    fill: #2f2f37;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    width: 34px;
+}
