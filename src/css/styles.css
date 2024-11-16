@@ -1,11 +1,11 @@
-
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('../fonts/fontstyle.css');
+@import url('./Gilroy/fontstyle.css');
 
 /* Sections style */
+@import url('../fonts/fontstyle.css');
 @import url('./header.css');
 @import url('./mob-menu.css');
 @import url('./hero.css');
