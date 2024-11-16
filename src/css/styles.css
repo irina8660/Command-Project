@@ -5,7 +5,6 @@
 @import url('../Gilroy/fontstyle.css');
 
 /* Sections style */
-@import url('../fonts/fontstyle.css');
 @import url('./header.css');
 @import url('./mob-menu.css');
 @import url('./hero.css');
