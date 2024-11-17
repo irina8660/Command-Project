@@ -9,7 +9,7 @@
           integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script type="module" crossorigin src="/command-project/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/command-project/assets/index-Cn8R2saH.css">
+    <link rel="stylesheet" crossorigin href="/command-project/assets/index-BV0bhqz3.css">
   </head>
   <body>
     <section class="header" id="header">
@@ -329,9 +329,95 @@
       <section class="reviews" id="reviews">
     <div class="container"></div>
 </section>
-      <section class="contact-us" id="contact-us">
-    <div class="container"></div>
+      <section class="contact-us-section" id="contact-us">
+  <div class="container">
+    <h2 class="contact-us-title">Contact Us</h2>
+    <div class="form-foto-containar">
+      <div class="form-container">
+        <p class="form-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+
+        <form class="form">
+          <div class="form-item">
+            <label for="user-name" class="form-lable"></label>
+
+            <input
+              type="text"
+              name="user-name"
+              id="user-name"
+              class="form-input"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div class="form-item">
+            <label for="user-email" class="form-lable"></label>
+
+            <input
+              type="email"
+              name="user-email"
+              id="user-email"
+              class="form-input"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+          </div>
+          <div class="form-item">
+            <label for="user-phone" class="form-lable"></label>
+
+            <input
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              class="form-input"
+              placeholder="+380"
+              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+              required
+            />
+          </div>
+
+          <div class="form-comment">
+            <label for="user-comment" class="form-lable"></label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="form-textarea"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="form-btn">Send</button>
+        </form>
+      </div>
+      <div class="thumb">
+        <picture>
+          <source
+            srcset="/command-project/assets/contact-us-BtZbISU8.jpg 1x, /command-project/assets/contact-us@2x-CoGdOF-c.jpg 2x"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="/command-project/assets/contact-us-tab-CWAoaDNS.jpg 1x, /command-project/assets/contact-us-tab@2x-AVSi5Vph.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/command-project/assets/contact-us-mob-SzY6Ra8Y.jpg 1x, /command-project/assets/contact-us-mob@2x-JP3Jv7fF.jpg 2x"
+            media="(min-width: 320px)"
+          />
+          <img
+            src="/command-project/assets/contact-us-BtZbISU8.jpg"
+            alt="black watch on rock"
+            width="530"
+            class="form-foto"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
 </section>
+
       <section class="mob-menu" id="mob-menu">
     <div class="container"></div>
 </section>
