@@ -2,16 +2,6 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.sale-title{
-    font-family: 'Gilroy';
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-}
 
 .sale-img{
     margin-top: 24px;

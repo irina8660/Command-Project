@@ -2,14 +2,7 @@
 .catalog {
   padding: 30px 0;
 }
-.catalog-title {
-  margin-bottom: 24px;
-  font-weight: 600;
-  font-size: 32px;
-  letter-spacing: -0.02em;
-  line-height: 1;
-  color: #0c0c0c;
-}
+
 .catalog-list {
   display: flex;
   flex-wrap: wrap;
