@@ -18,6 +18,7 @@ section {
 
 section:first-child {
   padding-top: 30px;
+}
 
 h2 {
     font-weight: 600;
