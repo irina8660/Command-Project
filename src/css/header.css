@@ -1,14 +1,13 @@
-section {
-    padding-bottom: 0;
+.header {
+    padding: 0 0 30px 0;
 }
-
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 335px;
     border-bottom: 1px solid #e7e9fc;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .header-logo {
@@ -40,14 +39,13 @@ section {
 }
 
 @media only screen and (min-width:768px) {
-    .container {
-        max-width: 768px;
+    .header {
+        padding: 0 0 40px 0;
     }
-
     .header-container {
         padding-top: 26px;
         padding-bottom: 26px;
-    }
+}
 
     .header-logo {
         font-size: 20px;
@@ -59,9 +57,9 @@ section {
 }
 
     @media only screen and (min-width:1280px) {
-        .container {
-            max-width: 1280px;
-        }
+        .header {
+                padding: 0 0 30px 0;
+            }
 
         .header-container {
             max-width: 1151px;
