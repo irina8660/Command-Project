@@ -26,7 +26,6 @@
 .sale-mini_clocks_img-part{
     top: 13px;
     left: 14px;
-    /* gap: 0px; */
     background: rgba(243, 243, 243, 1);
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 16px;
@@ -115,7 +114,6 @@
     margin-top: 28px;
 }
 .sale-promo-tag{
-    flex-basis: ((100% - 8px) / 2);
     font-family: 'Gilroy';
     font-size: 12px;
     font-weight: 500;
@@ -142,7 +140,6 @@
     }
     .sale-mini_clocks_img{
         gap: 10px;
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -174,7 +171,7 @@
         margin-right: 148px;
     }
     .sale-promo-cost-part-1{
-        font-size: 14px;
+        font-size: 20px;
     }
     .sale-promo-paragraph{
         font-size: 16px;
@@ -205,9 +202,10 @@
     }
     .sale-promo{
       width: 530px;
+      height: 558px;
     }
     .sale-promo-title{
-      margin-right: 20px;
+      margin-right: 21px;
     }
     .sale-promo-tags{
       margin-right: 12px;
