@@ -6,7 +6,7 @@
 }
 
 .wrap-text {
-    width: 335px;
+    max-width: 335px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -37,9 +37,9 @@
     height: 44px;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: row;
-    gap: 155px;
+    margin-bottom: 28px;
 }
 
 .hero-people-image {
@@ -68,29 +68,18 @@
     height: auto;
 }
 
-@media screen and (min-width: 375px) {
-    .wrap-text {
-        width: 335px;
-    }
-
-    .hero-main-img {
-        width: 335px;
-    }
-}
-
 @media screen and (min-width: 768px) {
 
     .hero-main {
         display: flex;
         flex-direction: row;
-        gap: 11px;
+        justify-content: space-between;
         width: 704px;
         margin-bottom: 40px;
     }
 
     .wrap-text {
-        width: 557px;
-        height: 260px;
+        max-width: 557px;
     }
 
     .hero-title {
@@ -107,9 +96,10 @@
     .hero-wrap-links {
         display: flex;
         flex-direction: column;
-        gap: 180px;
-        width: 136px;
+        justify-content: space-between;
+        max-width: 136px;
         height: 260px;
+        margin-bottom: 28px;
     }
 
     .hero-people-image {
@@ -136,8 +126,8 @@
         justify-content: flex-start;
         flex-direction: row;
         gap: 407px;
-        width: 1150px;
-        height: 269px;
+        max-width: 1150px;
+        margin-bottom: 40px;
     }
 
     .wrap-text {
@@ -147,7 +137,6 @@
         flex-direction: column;
         gap: 20px;
         width: 597px;
-        height: 269px;
     }
 
     .hero-title {
@@ -161,12 +150,13 @@
 
     .hero-wrap-links {
         gap: 189px;
-        width: 146px;
+        max-width: 146px;
         height: 269px;
+        margin-bottom: 0;
     }
 
     .hero-people-image {
-        width: 146px;
+        max-width: 146px;
         height: 60px;
     }
 

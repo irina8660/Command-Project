@@ -14,7 +14,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     }
   
   .adv-content {
@@ -60,13 +59,14 @@
     .main-container {
       background-image: url(../img/adv-bgnd-mobile-@2x.jpg);
     }
+
   }
   
   /* --------------laptop---------------*/
   @media (min-width: 768px) {
 
     .adv-container {
-      width: 704px;
+      max-width: 704px;
       height: 425px;
       padding-top: 48px;
       padding-bottom: 80px;

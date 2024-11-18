@@ -1,6 +1,7 @@
 .header {
     padding: 0 0 30px 0;
 }
+
 .header-container {
     display: flex;
     align-items: center;
@@ -43,8 +44,8 @@
         padding: 0 0 40px 0;
     }
     .header-container {
-        padding-top: 26px;
-        padding-bottom: 26px;
+        padding: 26px 0;
+        max-width: 704px;
 }
 
     .header-logo {
