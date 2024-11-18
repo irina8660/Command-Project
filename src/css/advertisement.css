@@ -1,40 +1,23 @@
-.advertisement {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  
   .img {
     display: block;
     max-width: 100%;
   }
-  
-  .container {
-    min-width: 320px;
-    max-width: 374px;
-  }
-  
+   
   .adv-container {
     border-radius: 30px;
     max-width: 335px;
-    margin: 0 auto;
     display: block;
     flex-direction: column;
     padding-top: 32px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     background-image: url(../img/adv-bgnd-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    background: #fff, rgba(0, 0, 0, 0.2);
-  }
+    }
   
   .adv-content {
-    font-family: "Gilroy", sans-serif;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
     color: #fbfbfb;
     margin: 28px;
   }
@@ -57,20 +40,14 @@
   
   .adv-button {
     border: 1px solid rgba(251, 251, 251, 0.15);
-    border-radius: 16px;
     width: 160px;
     height: 48px;
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    text-align: center;
     color: #fbfbfb;
     background-color: transparent;
     margin-left: 28px;
     cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+   }
   
   .adv-button:hover,
   .adv-button:focus,
@@ -85,32 +62,9 @@
     }
   }
   
-  /* --------------mobile---------------*/
-  @media (min-width: 375px) {
-    .advertisement {
-      padding: 30px 20px;
-    }
-  
-    .container {
-      max-width: 375px;
-    }
-  
-    .adv-container {
-      width: 335px;
-      height: 363px;
-    }
-  }
-  
   /* --------------laptop---------------*/
   @media (min-width: 768px) {
-    .container {
-      max-width: 768px;
-    }
-  
-    .advertisement {
-      padding: 40px auto;
-    }
-  
+
     .adv-container {
       width: 704px;
       height: 425px;
@@ -121,9 +75,6 @@
     }
   
     .adv-content {
-      font-size: 48px;
-      line-height: 92%;
-      letter-spacing: -0.02em;
       margin-left: 64px;
       margin-right: 64px;
       margin-bottom: 48px;
@@ -141,15 +92,8 @@
   }
   /* -------------desktop------------- */
   @media (min-width: 1280px) {
-    .container {
-      max-width: 1280px;
-    }
-  
-    .advertisement {
-      padding: 50px auto;
-    }
-  
-    .adv-container {
+    
+      .adv-container {
       width: 1150px;
       height: 298px;
       display: flex;
@@ -159,7 +103,7 @@
       align-items: baseline;
       background-image: url(../img/adv-bgnd-desktop.jpg);
     }
-  
+      
     .adv-content {
       width: 690px;
       font-size: 48px;
@@ -170,6 +114,13 @@
   
     .adv-button {
       margin-left: 0;
+      }
+
+    .adv-button:hover,
+    .adv-button:focus,
+    .adv-button:active {
+      color: #0c0c0c;
+      background: #fbfbfb;
     }
   
     @media (min-resolution: 192dpi) {
