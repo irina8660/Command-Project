@@ -1,0 +1,126 @@
+.about-us-container {
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ max-width: 100%;
+}
+
+.about-content {
+ border-radius: 30px;
+ background-color: #f3f3f3;
+}
+
+.about-content,
+.about-image {
+ width: 100%;
+ border-radius: 30px;
+ padding: 40px 20px;
+ height: auto;
+}
+
+.about-content h2 {
+ font-weight: 600;
+ font-size: 32px;
+ line-height: 100%;
+ letter-spacing: -0.02em;
+ color: #0c0c0c;
+ padding-bottom: 28px;
+}
+
+.about-content p {
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 125%;
+ color: rgba(12, 12, 12, 0.7);
+ text-align: justify;
+}
+
+.about-content a {
+ font-family: "Gilroy", sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ color: #fff;
+ display: inline-block;
+ margin-top: 40px;
+ text-align: center;
+ width: 160px;
+ height: 48px;
+ line-height: 48px;
+ background-color: #3350e9;
+ border-radius: 16px;
+ text-decoration: none;
+}
+
+.about-content a:hover {
+ background-color: #1f3cd4;
+}
+
+.about-image {
+ min-height: 446px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 30px;
+ overflow: hidden;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/about-us.jpg);
+ padding: 188px 0;
+}
+
+.about-content p + p {
+ margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+ .about-us-container {
+     flex-direction: column;
+     min-width: 800px;
+ }
+
+ .about-content p {
+     font-size: 16px;
+ }
+ .about-content,
+ .about-image {
+     max-width: 100%;
+     border-radius: 50px;
+     padding: 80px 60px;
+     height: auto;
+ }
+
+ .about-image {
+     border-radius: 50px;
+ }
+}
+
+@media (min-width: 1280px) {
+ .about-us-container {
+     flex-direction: row;
+     max-width: 1280px;
+ }
+
+ .about-content {
+     flex: 1;
+     border-radius: 50px;
+     min-width: 580px;
+     padding: 80px 60px;
+ }
+
+ .about-content h2 {
+     font-size: 48px;
+ }
+
+ .about-image {
+     flex: 1;
+     width: 530px;
+ }
+}
+
+@media (min-resolution: 192dpi) {
+ .section-one {
+     height: auto;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/about-us@2x.jpg);
+ }
+}
