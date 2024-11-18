@@ -166,9 +166,7 @@
     }
 }
 
-@media screen and (min-resolution: 2dppx),
-(min-resolution: 1280dpi),
-(-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-width: 1280px) {
     .mob-menu {
         display: none;
     }
