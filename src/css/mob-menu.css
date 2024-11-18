@@ -165,3 +165,11 @@
         height: 36px;
     }
 }
+
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi),
+(-webkit-min-device-pixel-ratio: 2) {
+    .mob-menu {
+        display: none;
+    }
+}
