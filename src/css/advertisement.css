@@ -94,6 +94,7 @@
   @media (min-width: 1280px) {
     
       .adv-container {
+    max-width: 1280px;
       width: 1150px;
       height: 298px;
       display: flex;
