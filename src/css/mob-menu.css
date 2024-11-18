@@ -9,7 +9,7 @@
     display: flex;
     justify-content: flex-end;
 }
-    
+
 .mob-container {
     position: relative;
     width: 200px;
@@ -24,6 +24,13 @@
     background-position: center;
     padding: 40px 0;
     overflow: auto;
+}
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
 }
 
 @media screen and (min-resolution: 2dppx),
