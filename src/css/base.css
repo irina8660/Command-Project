@@ -16,10 +16,6 @@ section {
   padding-bottom: 30px;
 }
 
-section:first-child {
-  padding-top: 30px;
-}
-
 h2 {
     font-weight: 600;
     font-size: 32px;
