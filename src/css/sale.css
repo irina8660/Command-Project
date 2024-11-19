@@ -126,6 +126,9 @@
     border-radius: 8px;
     color: rgba(251, 251, 251, 1);
 }
+.sale-promo-tag-p{
+    font-size: 12px;
+  }
 @media screen and (min-width: 768px){
     .sale{
         padding-top: 40px;
@@ -184,9 +187,9 @@
         margin-right: 186px;
         margin-top: 40px;
     }
-    .sale-promo-tag{
-        font-size: 14px;
-        line-height: 18px;
+    .sale-promo-tag-p{
+      font-size: 14px;
+      line-height: 18px;
     }
 }
 @media screen and (min-width: 1280px){
