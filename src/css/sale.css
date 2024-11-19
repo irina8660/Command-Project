@@ -11,9 +11,10 @@
     text-align: left;
     text-underline-position: from-font;
 }
-
-.sale-img{
+.sale-container{
     margin-top: 24px;
+}
+.sale-img{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -134,9 +135,11 @@
         font-size: 48px;
         line-height: 44px;
     }
+    .sale-container{
+        margin-top: 40px;
+    }
     .sale-img{
         flex-wrap: nowrap;
-        margin-top: 40px;
     }
     .sale-mini_clocks_img{
         gap: 10px;
@@ -190,6 +193,7 @@
     .sale{
         padding-top: 50px;
         padding-bottom: 50px;
+        gap: 0;
     }
     .sale-container{
         display: flex;
@@ -201,8 +205,9 @@
         border-radius: 50px;
     }
     .sale-promo{
-      width: 530px;
-      height: 558px;
+        margin-top: 0px;
+        width: 530px;
+        height: 558px;
     }
     .sale-promo-title{
       margin-right: 21px;
