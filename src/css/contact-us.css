@@ -84,8 +84,12 @@ textarea::placeholder {
   textarea::placeholder {
     font-size: 16px;
     line-height: 1.25;
-  }
-
+    
+  .contact-us-title {
+    font-size: 48px;
+    line-height: 0.92;
+    }
+    
   .form-container {
     min-width: 704px;
     min-height: 556px;
