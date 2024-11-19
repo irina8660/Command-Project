@@ -1,3 +1,16 @@
+.sale{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sale-title{
+    font-family: 'Gilroy';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+}
 
 .sale-img{
     margin-top: 24px;
@@ -13,7 +26,6 @@
 .sale-mini_clocks_img-part{
     top: 13px;
     left: 14px;
-    gap: 0px;
     background: rgba(243, 243, 243, 1);
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 16px;
@@ -40,7 +52,6 @@
     letter-spacing: -0.02em;
     text-align: left;
     text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: rgba(251, 251, 251, 1);
 }
 .sale-promo-prtag{
@@ -51,7 +62,6 @@
     letter-spacing: -0.02em;
     text-align: left;
     text-underline-position: 'from-font';
-    text-decoration-skip-ink: none;
     color: rgba(251, 251, 251, 0.5);
     margin-top: 10px;
 }
@@ -69,7 +79,6 @@
     letter-spacing: -0.02em;
     text-align: left;
     text-underline-position: 'from-font';
-    text-decoration-skip-ink: none;
     color: rgba(251, 251, 251, 1);
     background: rgba(251, 251, 251, 0.1);
     border: 1px solid rgba(251, 251, 251, 0.1);
@@ -85,7 +94,6 @@
     text-align: left;
     text-decoration-line: line-through;
     text-underline-position: 'from-font';
-    text-decoration-skip-ink: none;
     color: rgba(251, 251, 251, 0.5);
 }
 .sale-promo-paragraph{
@@ -97,7 +105,6 @@
     letter-spacing: -0.02em;
     text-align: left;
     text-underline-position: 'from-font';
-    text-decoration-skip-ink: none;
     color: rgba(251, 251, 251, 0.7);
 }
 .sale-promo-tags{
@@ -107,14 +114,12 @@
     margin-top: 28px;
 }
 .sale-promo-tag{
-    flex-basis: ((100% - 8px) / 2);
     font-family: 'Gilroy';
     font-size: 12px;
     font-weight: 500;
     line-height: 16px;
     text-align: left;
     text-underline-position: 'from-font';
-    text-decoration-skip-ink: none;
     padding: 8px 12px;
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 8px;
@@ -135,7 +140,6 @@
     }
     .sale-mini_clocks_img{
         gap: 10px;
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -147,14 +151,14 @@
         background: rgba(243, 243, 243, 1);
         border-radius: 16px;
         padding: 16px 18px;
-        gap: 0px;
-        opacity: 0px;
     }
     .sale-clock_img{
         padding: 80px 112px;
         display: flex;
         align-items: center;
         width: 552px;
+        height: 558px;
+        text-align: right;
         box-sizing: border-box;
     }
     .sale-promo{
@@ -164,17 +168,17 @@
     .sale-promo-title{
         font-size: 32px;
         line-height: 36px;
-        padding-right: 148px;
+        margin-right: 148px;
     }
     .sale-promo-cost-part-1{
-        font-size: 16px;
+        font-size: 20px;
     }
     .sale-promo-paragraph{
         font-size: 16px;
         line-height: 20px;
     }
     .sale-promo-tags{
-        padding-right: 186px;
+        margin-right: 186px;
         margin-top: 40px;
     }
     .sale-promo-tag{
@@ -196,10 +200,14 @@
         padding: 80px 50px;
         border-radius: 50px;
     }
+    .sale-promo{
+      width: 530px;
+      height: 558px;
+    }
     .sale-promo-title{
-        padding-right: 21px;
+      margin-right: 21px;
     }
     .sale-promo-tags{
-        padding-right: 28px;
+      margin-right: 12px;
     }
 }
