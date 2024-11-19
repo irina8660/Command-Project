@@ -1,0 +1,139 @@
+.header {
+    padding: 0 0 30px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 335px;
+    border-bottom: 1px solid #e7e9fc;
+    padding: 20px 0;
+}
+
+.header-logo {
+    display: block;
+    padding: 8px 0;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+}
+
+
+.nav-list,
+.header-soc-list {
+    display: none;
+}
+
+.burger-btn {
+    display: block;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.burger-icon {
+    stroke: #0c0c0c;
+}
+
+@media only screen and (min-width:768px) {
+    .header {
+        padding: 0 0 40px 0;
+    }
+    .header-container {
+        padding: 26px 0;
+        max-width: 704px;
+}
+
+    .header-logo {
+        font-size: 20px;
+    }
+
+    .burger-icon {
+        width: 40px;
+    }
+}
+
+    @media only screen and (min-width:1280px) {
+        .header {
+                padding: 0 0 30px 0;
+            }
+
+        .header-container {
+            max-width: 1151px;
+            display: flex;
+            align-items: center;
+        }
+
+        .header-logo {
+            margin-right: 203px;
+            padding: 6px 0;
+        }
+
+        .burger-btn {
+            display: none;
+        }
+
+        .header-nav {
+            display: flex;
+            /* justify-content: space-between; */
+            align-items: center;  
+        }
+
+        .nav-list {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+    
+        .nav-link {
+            display: block;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.28571;
+            text-align: center;
+            color: #0c0c0c; 
+            padding-bottom: 10px;
+        }
+
+        .nav-link.current {
+            position: relative;
+        }
+        
+        .nav-link.current::after {
+            content: '';
+        
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            fill: #3350e9;
+        
+            background-color: #404bbf;
+            left: 15px;
+            bottom: 2px; 
+        }
+
+        .header-soc-list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header-soc-icon {
+            border: 1px solid rgba(12, 12, 12, 0.1);
+            border-radius: 10px;
+            padding: 8px;
+            width: 36px;
+            height: 36px;
+        }
+
+        .header-soc-link:hover .header-soc-icon {
+            fill: #3350e9;
+        }
+    
+    }
