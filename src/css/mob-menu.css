@@ -37,7 +37,10 @@
     overflow: auto;
 }
 
-
+.menu-list {
+    display: flex;
+    align-items: center;
+}
 
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
