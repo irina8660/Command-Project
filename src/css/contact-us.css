@@ -115,6 +115,7 @@ textarea::placeholder {
   .contact-us-title {
     font-size: 48px;
     line-height: 0.92;
+    margin-bottom: 40px;
   }
   .form-container {
     min-width: 704px;
