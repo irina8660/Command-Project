@@ -77,7 +77,7 @@ textarea::placeholder {
   overflow: hidden;
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   input,
   textarea,
   input::placeholder,
