@@ -76,6 +76,7 @@
         justify-content: space-between;
         width: 704px;
         margin-bottom: 40px;
+        gap: 11px;
     }
 
     .wrap-text {
@@ -98,8 +99,8 @@
         flex-direction: column;
         justify-content: space-between;
         max-width: 136px;
-        height: 260px;
-        margin-bottom: 28px;
+        height: 269px;
+        margin-bottom: 0;
     }
 
     .hero-people-image {
@@ -151,7 +152,7 @@
     .hero-wrap-links {
         gap: 189px;
         max-width: 146px;
-        height: 269px;
+        height: 330px;
         margin-bottom: 0;
     }
 
